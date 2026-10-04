@@ -1,0 +1,7 @@
+name: C133 synthetic marker
+description: Prints a public-only control marker for the bounded action access test
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo C133_PUBLIC_CONTROL
